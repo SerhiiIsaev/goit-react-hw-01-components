@@ -6,7 +6,8 @@ ul, li{
     padding: 20px;
     width: 304px;
     text-align: center;
-    background-color: azure;
+    background-color: aliceblue;
+    margin-bottom: 20px;
 }
 
 .title{
