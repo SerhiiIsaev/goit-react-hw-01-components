@@ -7,12 +7,10 @@ import { Statistics } from './Statistics/Statistics'
 import { FriendsList } from './FriendList/FriendList'
 import { TransactionHistory } from './TransactionHistory/TransactionHistory'
 
-
-
 export const App = () => {
   return (
     <div>
-      <Profile user={user} />
+      <Profile username={user.username} avatar = {user.avatar} tag = {user.tag} location = {user.location} stats = {user.stats} />
       <Statistics stats={data} title={"Upload stats"} />
       <FriendsList friends={friends} />
       <TransactionHistory items={transactions} />
