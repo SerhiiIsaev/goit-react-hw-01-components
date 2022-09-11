@@ -2,7 +2,6 @@ import styles from "./friendList.module.css"
 import PropTypes from "prop-types";
 
 const FriendsList = ({ friends }) => {
-    console.log(friends[1].name)
     return (
         <ul className={styles.friendList}>
             {friends.map(item => (
