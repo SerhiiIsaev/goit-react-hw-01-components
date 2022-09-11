@@ -1,0 +1,20 @@
+.transactionHistory{
+    display: block;
+    padding: 20px;
+    border-collapse: collapse;
+    background-color: aliceblue;
+    width: 344px;
+}
+.cell{
+    border: 1px solid black;
+    margin: 0px;
+    width: 95px;
+}
+
+.tableHead{
+    background-color: aqua;
+}
+
+.tableRow{
+    background-color: bisque;
+}
